@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fbf5ae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 40%;
+  border-radius: 10px;
+  background-color: #7A4D9F;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  box-shadow: 4px 4px 0px #fff;
+}
+.container h1 {
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 999;
+text-shadow:4px 4px 4px #e9cdcd;
+}
+.container input {
+  width: 60%;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  margin-top:40px;
+  border: none;
+  border-radius: 20px;
+}
+#label1 {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  font-size:15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition:all 0.2s ease-in-out;
+}
+#label2{
+    position: absolute;
+    top:39%;
+    left:25%;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.2s ease-in-out;
+  }
+  #label3{
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.2s ease-in-out;
+  }
+  #btn{
+    width: 100px;
+    height: 40px;
+    padding:10px;
+    border-radius:5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #59c4eb;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 4px 4px  #fff;
+  }
+  #btn:active{
+    position:relative;
+    left:4px;
+    box-shadow: 1px 1px 1px #fff;
+  }
+  .data{
+    width: 80%;
+    height: 100px;
+  }
+  .data h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px red;
+    color: white;
+    text-align: center;
+  }
+  @media(max-width:600px){
+    .container{
+        width: 80%;
+    }
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Body Mass Index</h1>
+            <label for="age" id="label1">Age</label>
+            <input type="number" placeholder="" name="age" id="age" onkeyup="validateAge()">
+            <label for="Weight" id="label2">Weight in kg</label>
+            <input type="number" placeholder="" name="Weight" id="weight" onkeyup="validateWeight()">
+            <label for="Height" id="label3">Height in cm</label>
+            <input type="number" placeholder="" name="Height" id="Height" onkeyup="validateHeight()">
+            <button id="btn" onclick="validateBtn()">
+                Calculate
+            </button>
+            <div class="data">
+                <h2 class="heading" id="h2"></h2>
+            <h1 id="h1"></h1>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
